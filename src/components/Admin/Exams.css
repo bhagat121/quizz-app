@@ -1,0 +1,29 @@
+.first{
+    margin: 0;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.second{
+    display: flex;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* .third{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+} */

@@ -1,0 +1,43 @@
+.ant-row1{
+    gap: 5rem;
+}
+.card{
+    border: 2px solid rgba(218, 213, 213, 0.702);
+    padding: 5px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    height: 95%;
+    flex: 1 1;
+}
+
+.c-but{
+    font-size: 20px;
+    border: 2px solid rgba(218, 213, 213, 0.702);
+    border-radius: 10px;
+    background-color: #647E68;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+    color: white;
+}
+
+.h1{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h3{
+    margin: 5px 0px;
+}
+@media (max-width: 1120px){
+    .ant-row1{
+        flex-direction: column;
+    }
+    .card{
+        width: 20rem;
+    }
+}

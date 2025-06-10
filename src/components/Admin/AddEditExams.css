@@ -1,0 +1,73 @@
+*{
+    font-family: arial;
+}
+.input{
+    height: 40px;
+    padding: 10px 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+}
+
+select{
+    height: 64px;
+    padding: 10px 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 20px;
+}
+
+.form.item{
+    font-size: large;
+}
+
+.b{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+}
+
+.but{
+    padding: 1.5rem;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #647E68;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.cancel{
+    padding: 1.5rem;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #647E68;
+    border-radius: 5px;
+    color: #647E68;
+}
+
+.ant-form-item .ant-form-item-label >label {
+    font-size: 25px !important;
+}
+
+.butt{
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:2px solid blue;
+    background-color: white;
+}
+@media(max-width: 1126px){
+    .input{
+        width: 10rem;
+    }
+    .ant-row{
+        flex-direction: column;
+    }
+    select{
+        width: 13rem;
+    }
+}

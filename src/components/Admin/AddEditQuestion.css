@@ -1,0 +1,29 @@
+.input1{
+    height: 40px;
+    padding: 10px 20px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 90%;
+    font-size: 18px;
+}
+
+.flex{
+    display: flex;
+    gap: 2rem;
+}
+
+.bt{
+    display: flex;
+    justify-content: end;
+    gap: 2rem
+}
+
+.ant-modal .ant-modal-content{
+    width: 130%;
+}
+
+@media(max-width: 900px){
+    .ant-modal .ant-modal-content{
+        width: 110%;
+    }
+}
